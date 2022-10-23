@@ -1,0 +1,9 @@
+להכנס לconsole לתיקייה הרצוייה
+או לעשות cd
+אח"כ
+npx create-react-app name
+לפתוח שוב console
+cd name
+npm start
+
+

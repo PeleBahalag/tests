@@ -1,75 +1,70 @@
-# simple-vue-app
+# Getting Started with Create React App
 
-## What is the use of this Repo [![Generic badge](https://img.shields.io/badge/What-VueJS-blue.svg)](https://vuejs.org/v2/guide/)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This Repo demonstrates the use of the following in vuejs
-1. Vue Routing
-2. Components
-3. Communication between Components ( Parent to child component )
-4. Axios Library to make HTTP calls
+## Available Scripts
 
-## Application Live URL [![Generic badge](https://img.shields.io/badge/Deployed-Success-green.svg)](https://aditya-sridhar.github.io/simple-vuejs-app/)
+In the project directory, you can run:
 
-The Application is deployed in
-### https://aditya-sridhar.github.io/simple-vuejs-app/
+### `npm start`
 
-## Prerequisites
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Install NodeJS [![Generic badge](https://img.shields.io/badge/Prerequisite-NodeJS-blue.svg)](https://nodejs.org/en/)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Refer https://nodejs.org/en/ to install NodeJS
+### `npm test`
 
-### Install Vue Cli [![Generic badge](https://img.shields.io/badge/Prerequisite-VueCli-blue.svg)](https://cli.vuejs.org/guide/)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Install Vue Cli Node Package Globally using the following Command.
+### `npm run build`
 
-```bash
-npm install -g @vue/cli
-```
-## Cloning and Running the Application
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Clone the application to local
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Go into the project Folder and install the npm packages using the following command
-```bash
-npm install
-```
-Run the following command to run the application
-```
-npm run serve
-```
-The Application runs on **localhost:8080**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Application Design
+### `npm run eject`
 
-### Views and components
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-**Customers** : This View Displays a list of customers and gets the data from a json from assets folder
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-**CustomerDetails** : This View Displays the Details of a single customer and gets the data from a json from assets Folder
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**Display** : Display component displays the name of the selected customer in **Customers** View. **Display** is a child component of **Customers** View
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Http Library [![Generic badge](https://img.shields.io/badge/http-axios-blue.svg)](https://www.npmjs.com/package/axios)
+## Learn More
 
-**axios** library is used to make http calls
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Routing
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-The Application has 2 endpoints
+### Code Splitting
 
-**/customers** : The ties to *Customers* View
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-**/customerdetails** : This ties to *CustomerDetails* View
+### Analyzing the Bundle Size
 
-## References
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-**VueJS** : https://vuejs.org/v2/guide/
+### Making a Progressive Web App
 
-**vue cli** : https://cli.vuejs.org/guide/
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-**axios** : https://www.npmjs.com/package/axios
+### Advanced Configuration
 
-**vue bootstrap** : https://bootstrap-vue.js.org/docs
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-**vue router** : https://router.vuejs.org/guide/
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
